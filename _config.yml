@@ -19,7 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 10 Sentences
-email: nicholas.r.fiacco@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog posts in 10 sentences or less.
 baseurl: "" # the subpath of your site, e.g. /blog
