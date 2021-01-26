@@ -21,9 +21,8 @@ context-switching at the kernel level!
 ### Friendlier
 
 Golang graciously abstracted all of this `inotify` and scheduling nonsense away from the developer-- you can just write
-plain-old sequential code without having to worry about callbacks. Anyone who has written concurrent software with
-Boost::asio (or pre-Promise Javascript for that matter) has horror stories of callback hell. At the same time, Golang
-borrowed the channel concept from Boost::asio, which makes writing lock-free concurrent code a breeze
-(read: no more deadlocks).
+plain-old sequential code without getting into callback hell. Golang also employs the channel concept from Tony Hoare's
+CSP model of concurrency, which makes writing lock-free interprocess communication a breeze (read: no more deadlocks).
 
-I love the Golang concurrency model, and so should you.
+This is just a subset of what sets the Golang apart, but the point stands: **I love the Golang concurrency model, and
+so should you.**
