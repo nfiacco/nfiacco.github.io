@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Case for Trick Questions"
-date:   2021-01-21 10:15:01 -0700
+date:   2021-01-21
 ---
 
 When I first started interviewing for software engineering jobs, every once in a while I would come across a question
