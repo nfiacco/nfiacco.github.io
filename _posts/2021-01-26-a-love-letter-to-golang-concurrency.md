@@ -24,5 +24,5 @@ Golang graciously abstracted all of this `inotify` and scheduling nonsense away 
 plain-old sequential code without getting into callback hell. Golang also employs the channel concept from Tony Hoare's
 CSP model of concurrency, which makes writing lock-free interprocess communication a breeze (read: no more deadlocks).
 
-This is just a subset of what sets the Golang apart, but the point stands: **I love the Golang concurrency model, and
+This is just a subset of what sets Golang apart, but the point stands: **I love the Golang concurrency model, and
 so should you.**
